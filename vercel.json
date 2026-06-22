@@ -1,4 +1,7 @@
 {
+  "routes": [
+    { "src": "/creator.html", "dest": "/creator.html", "status": 200 }
+  ],
   "rewrites": [
     { "source": "/creator", "destination": "/creator.html" }
   ]
