@@ -1,0 +1,35 @@
+{
+  "loading": {
+    "text": "Preparando una sorpresa..."
+  },
+  "error": {
+    "badUrl": "Vaya, este enlace no parece correcto... Por favor, comprueba que el enlace está completo",
+    "noData": "No se encontraron datos de felicitación. Pide al remitente que regenere el enlace"
+  },
+  "creator": {
+    "title": "Crear una tarjeta de felicitación",
+    "recipientName": "Nombre del destinatario",
+    "recipientAge": "Edad (opcional)",
+    "occasion": "Ocasión",
+    "senderName": "Tu nombre",
+    "senderRelation": "Vuestra relación",
+    "messageBody": "Mensaje de felicitación",
+    "messageClosing": "Despedida (opcional)",
+    "langLabel": "Idioma",
+    "themeLabel": "Tema",
+    "generateBtn": "✨ Generar enlace",
+    "copyBtn": "Copiar enlace",
+    "copied": "¡Copiado!"
+  },
+  "scene": {
+    "opening": "Apertura",
+    "flipCard": "Tarjeta",
+    "narrative": "Mensaje",
+    "climax": "Bendición",
+    "closing": "Firma"
+  },
+  "nav": {
+    "tapToContinue": "Toca en cualquier lugar para continuar",
+    "swipeHint": "Desliza a la izquierda o derecha para navegar"
+  }
+}

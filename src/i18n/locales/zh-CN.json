@@ -1,0 +1,35 @@
+{
+  "loading": {
+    "text": "正在准备惊喜..."
+  },
+  "error": {
+    "badUrl": "哎呀，这个链接好像不太对...请检查一下链接是否完整",
+    "noData": "没有找到祝福数据，请联系发送者重新生成链接"
+  },
+  "creator": {
+    "title": "创建祝福贺卡",
+    "recipientName": "被祝福者姓名",
+    "recipientAge": "年龄（选填）",
+    "occasion": "祝福场景",
+    "senderName": "你的名字",
+    "senderRelation": "你们的关系",
+    "messageBody": "祝福正文",
+    "messageClosing": "结尾寄语（选填）",
+    "langLabel": "界面语言",
+    "themeLabel": "主题风格",
+    "generateBtn": "✨ 生成祝福链接",
+    "copyBtn": "复制链接",
+    "copied": "已复制！"
+  },
+  "scene": {
+    "opening": "开场",
+    "flipCard": "贺卡",
+    "narrative": "寄语",
+    "climax": "祝福",
+    "closing": "署名"
+  },
+  "nav": {
+    "tapToContinue": "点击任意位置继续",
+    "swipeHint": "左右滑动浏览"
+  }
+}

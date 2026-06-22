@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>🎉 一份特别的祝福</title>
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="🎉 一份特别的祝福" />
+  <meta property="og:description" content="有人为你准备了一份惊喜..." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-image.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="🎉 一份特别的祝福" />
+  <meta name="twitter:description" content="有人为你准备了一份惊喜..." />
+
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%;
+      background: #000;
+      color: #fff;
+      font-family: 'Noto Serif SC', serif;
+      overflow: hidden;
+    }
+    #app {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    #loading-screen {
+      position: fixed; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      background: #000; color: #fff; z-index: 9999;
+      font-size: 1.2rem; letter-spacing: 0.1em;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <div id="loading-screen">正在准备惊喜...</div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

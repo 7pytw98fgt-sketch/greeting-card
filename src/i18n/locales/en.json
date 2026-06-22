@@ -1,0 +1,35 @@
+{
+  "loading": {
+    "text": "Preparing a surprise..."
+  },
+  "error": {
+    "badUrl": "Oops, this link doesn't seem right... Please check if the link is complete",
+    "noData": "No greeting data found. Please ask the sender to regenerate the link"
+  },
+  "creator": {
+    "title": "Create a Greeting Card",
+    "recipientName": "Recipient's Name",
+    "recipientAge": "Age (optional)",
+    "occasion": "Occasion",
+    "senderName": "Your Name",
+    "senderRelation": "Your Relationship",
+    "messageBody": "Greeting Message",
+    "messageClosing": "Closing Note (optional)",
+    "langLabel": "Language",
+    "themeLabel": "Theme",
+    "generateBtn": "✨ Generate Greeting Link",
+    "copyBtn": "Copy Link",
+    "copied": "Copied!"
+  },
+  "scene": {
+    "opening": "Opening",
+    "flipCard": "Card",
+    "narrative": "Message",
+    "climax": "Blessing",
+    "closing": "Signature"
+  },
+  "nav": {
+    "tapToContinue": "Tap anywhere to continue",
+    "swipeHint": "Swipe left or right to browse"
+  }
+}

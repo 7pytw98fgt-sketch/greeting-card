@@ -1,0 +1,35 @@
+{
+  "loading": {
+    "text": "Préparation d'une surprise..."
+  },
+  "error": {
+    "badUrl": "Oups, ce lien ne semble pas correct... Veuillez vérifier que le lien est complet",
+    "noData": "Aucune donnée de message trouvée. Veuillez demander à l'expéditeur de régénérer le lien"
+  },
+  "creator": {
+    "title": "Créer une carte de vœux",
+    "recipientName": "Nom du destinataire",
+    "recipientAge": "Âge (facultatif)",
+    "occasion": "Occasion",
+    "senderName": "Votre nom",
+    "senderRelation": "Votre lien",
+    "messageBody": "Message de vœux",
+    "messageClosing": "Message de clôture (facultatif)",
+    "langLabel": "Langue",
+    "themeLabel": "Thème",
+    "generateBtn": "✨ Générer le lien",
+    "copyBtn": "Copier le lien",
+    "copied": "Copié !"
+  },
+  "scene": {
+    "opening": "Ouverture",
+    "flipCard": "Carte",
+    "narrative": "Message",
+    "climax": "Bénédiction",
+    "closing": "Signature"
+  },
+  "nav": {
+    "tapToContinue": "Appuyez n'importe où pour continuer",
+    "swipeHint": "Glissez à gauche ou à droite pour naviguer"
+  }
+}

@@ -1,0 +1,35 @@
+import { defineConfig } from 'vite';
+import { resolve } from 'path';
+
+export default defineConfig({
+  root: '.',
+  build: {
+    outDir: 'dist',
+    target: 'es2020',
+    cssMinify: true,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+      },
+    },
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        creator: resolve(__dirname, 'creator.html'),
+      },
+      output: {
+        manualChunks: {
+          'vendor-gsap': ['gsap'],
+          'vendor-three': ['three'],
+          'vendor-i18n': ['i18next'],
+        },
+      },
+    },
+    chunkSizeWarningLimit: 600,
+  },
+  server: {
+    port: 3000,
+  },
+});

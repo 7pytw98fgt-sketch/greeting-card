@@ -1,0 +1,35 @@
+{
+  "loading": {
+    "text": "正在準備驚喜..."
+  },
+  "error": {
+    "badUrl": "哎呀，這個連結好像不太對...請檢查一下連結是否完整",
+    "noData": "沒有找到祝福資料，請聯繫發送者重新生成連結"
+  },
+  "creator": {
+    "title": "建立祝福賀卡",
+    "recipientName": "被祝福者姓名",
+    "recipientAge": "年齡（選填）",
+    "occasion": "祝福場景",
+    "senderName": "你的名字",
+    "senderRelation": "你們的關係",
+    "messageBody": "祝福正文",
+    "messageClosing": "結尾寄語（選填）",
+    "langLabel": "介面語言",
+    "themeLabel": "主題風格",
+    "generateBtn": "✨ 生成祝福連結",
+    "copyBtn": "複製連結",
+    "copied": "已複製！"
+  },
+  "scene": {
+    "opening": "開場",
+    "flipCard": "賀卡",
+    "narrative": "寄語",
+    "climax": "祝福",
+    "closing": "署名"
+  },
+  "nav": {
+    "tapToContinue": "點擊任意位置繼續",
+    "swipeHint": "左右滑動瀏覽"
+  }
+}

@@ -1,0 +1,80 @@
+/* ================================================================
+   Responsive breakpoint styles
+   ================================================================ */
+
+/* ---- Mobile (< 768px) ---- */
+@media (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+
+  /* Shrink flip card for small screens */
+  .flip-card {
+    width: 85vw !important;
+    max-width: 340px !important;
+    height: auto !important;
+    aspect-ratio: 3 / 4 !important;
+  }
+
+  /* Navigation hint positioning */
+  .nav-hint-bar {
+    padding: 0.6rem 1rem !important;
+    font-size: 0.8rem !important;
+    bottom: 0 !important;
+  }
+
+  /* Progress bar thinner */
+  .progress-bar-track {
+    height: 2px !important;
+  }
+
+  .progress-bar-dot {
+    width: 4px !important;
+    height: 4px !important;
+  }
+
+  /* Language switcher */
+  .lang-switcher-btn {
+    top: env(safe-area-inset-top, 0.5rem) !important;
+    right: 1rem !important;
+    padding: 0.3rem 0.7rem !important;
+    font-size: 0.75rem !important;
+  }
+
+  /* Error fallback */
+  .error-fallback h1 {
+    font-size: 1.3rem !important;
+  }
+  .error-fallback p {
+    font-size: 0.95rem !important;
+  }
+
+  /* Loading screen */
+  .loading-envelope {
+    font-size: 2.5rem !important;
+  }
+}
+
+/* ---- Tablet (768px – 1200px) ---- */
+@media (min-width: 768px) and (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+
+  .flip-card {
+    width: 60vw !important;
+    max-width: 420px !important;
+  }
+}
+
+/* ---- Desktop (> 1200px) ---- */
+@media (min-width: 1201px) {
+  html {
+    font-size: 18px;
+  }
+
+  .flip-card {
+    width: 400px !important;
+    max-width: 480px !important;
+  }
+}

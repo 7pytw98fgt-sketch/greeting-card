@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#FF6B6B;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Envelope icon -->
+  <text x="600" y="200" text-anchor="middle" font-size="120" font-family="sans-serif">💌</text>
+  <!-- Title -->
+  <text x="600" y="340" text-anchor="middle" font-size="56" font-family="'Noto Serif SC', serif" fill="#ffffff" font-weight="bold">🎉 一份特别的祝福</text>
+  <!-- Subtitle -->
+  <text x="600" y="430" text-anchor="middle" font-size="32" font-family="'Noto Serif SC', serif" fill="rgba(255,255,255,0.6)">有人为你准备了一份惊喜...</text>
+  <!-- Decorative line -->
+  <line x1="350" y1="480" x2="850" y2="480" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <!-- Decorative hearts -->
+  <text x="300" y="500" text-anchor="middle" font-size="24" fill="rgba(255,255,255,0.15)">✦ With Love ✦</text>
+</svg>

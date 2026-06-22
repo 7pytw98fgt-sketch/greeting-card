@@ -1,0 +1,53 @@
+/* ================================================================
+   Multi-theme colour system for the greeting-card animation studio.
+
+   Each occasion gets its own .theme-* class that overrides the
+   CSS custom properties on <body>.  Components reference colours
+   exclusively through var(--color-xxx) so switching themes is a
+   single class change.
+   ================================================================ */
+
+/* ---- Default / fallback (same as :root in base.css) ---- */
+:root,
+.theme-birthday {
+  --color-primary:    #FF6B6B;
+  --color-secondary:  #FFE66D;
+  --color-bg:         #1a1a2e;
+  --color-accent:     #FF8E8E;
+  --color-text:       #ffffff;
+  --color-text-dim:   rgba(255, 255, 255, 0.55);
+  --font-serif:       'Noto Serif SC', 'Times New Roman', serif;
+  --font-script:      'Dancing Script', cursive;
+}
+
+/* ---- 节日 (Festival) ---- */
+.theme-festival {
+  --color-primary:    #E63946;
+  --color-secondary:  #F1FAEE;
+  --color-bg:         #1d3557;
+  --color-accent:     #F4A261;
+}
+
+/* ---- 毕业 (Graduation) ---- */
+.theme-graduation {
+  --color-primary:    #2A9D8F;
+  --color-secondary:  #E9C46A;
+  --color-bg:         #264653;
+  --color-accent:     #52B788;
+}
+
+/* ---- 新婚 (Wedding) ---- */
+.theme-wedding {
+  --color-primary:    #FFB5A7;
+  --color-secondary:  #FCD5CE;
+  --color-bg:         #2C2C3A;
+  --color-accent:     #E5989B;
+}
+
+/* ---- 晋升 (Promotion) ---- */
+.theme-promotion {
+  --color-primary:    #FFD700;
+  --color-secondary:  #C0C0C0;
+  --color-bg:         #1a1a2e;
+  --color-accent:     #DAA520;
+}

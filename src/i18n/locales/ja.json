@@ -1,0 +1,35 @@
+{
+  "loading": {
+    "text": "サプライズを準備中..."
+  },
+  "error": {
+    "badUrl": "あら、このリンクは正しくないようです...リンクが完全かご確認ください",
+    "noData": "グリーティングデータが見つかりません。送信者にリンクの再生成をお願いしてください"
+  },
+  "creator": {
+    "title": "グリーティングカードを作成",
+    "recipientName": "お相手のお名前",
+    "recipientAge": "年齢（任意）",
+    "occasion": "シーン",
+    "senderName": "あなたのお名前",
+    "senderRelation": "ご関係",
+    "messageBody": "祝福のメッセージ",
+    "messageClosing": "結びの言葉（任意）",
+    "langLabel": "言語",
+    "themeLabel": "テーマ",
+    "generateBtn": "✨ リンクを生成する",
+    "copyBtn": "リンクをコピー",
+    "copied": "コピーしました！"
+  },
+  "scene": {
+    "opening": "オープニング",
+    "flipCard": "カード",
+    "narrative": "メッセージ",
+    "climax": "祝福",
+    "closing": "署名"
+  },
+  "nav": {
+    "tapToContinue": "どこでもタップして続ける",
+    "swipeHint": "左右にスワイプして閲覧"
+  }
+}

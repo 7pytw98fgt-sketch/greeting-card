@@ -1,0 +1,9 @@
+{
+  "name": "贺卡祝福",
+  "short_name": "祝福贺卡",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#FF6B6B",
+  "icons": []
+}
